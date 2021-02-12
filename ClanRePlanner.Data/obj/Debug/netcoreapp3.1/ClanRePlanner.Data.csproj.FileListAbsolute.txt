@@ -1,0 +1,12 @@
+C:\dev\ClanRePlanner\ClanRePlanner.Data\bin\Debug\netcoreapp3.1\ClanRePlanner.Data.deps.json
+C:\dev\ClanRePlanner\ClanRePlanner.Data\bin\Debug\netcoreapp3.1\ClanRePlanner.Data.dll
+C:\dev\ClanRePlanner\ClanRePlanner.Data\obj\Debug\netcoreapp3.1\ClanRePlanner.Data.AssemblyInfoInputs.cache
+C:\dev\ClanRePlanner\ClanRePlanner.Data\obj\Debug\netcoreapp3.1\ClanRePlanner.Data.AssemblyInfo.cs
+C:\dev\ClanRePlanner\ClanRePlanner.Data\obj\Debug\netcoreapp3.1\ClanRePlanner.Data.csprojAssemblyReference.cache
+C:\dev\ClanRePlanner\ClanRePlanner.Data\bin\Debug\netcoreapp3.1\ClanRePlanner.Data.runtimeconfig.json
+C:\dev\ClanRePlanner\ClanRePlanner.Data\bin\Debug\netcoreapp3.1\ClanRePlanner.Data.runtimeconfig.dev.json
+C:\dev\ClanRePlanner\ClanRePlanner.Data\bin\Debug\netcoreapp3.1\ClanRePlanner.Data.pdb
+C:\dev\ClanRePlanner\ClanRePlanner.Data\obj\Debug\netcoreapp3.1\ClanRePlanner.Data.dll
+C:\dev\ClanRePlanner\ClanRePlanner.Data\obj\Debug\netcoreapp3.1\ClanRePlanner.Data.pdb
+C:\dev\ClanRePlanner\ClanRePlanner.Data\obj\Debug\netcoreapp3.1\ClanRePlanner.Data.genruntimeconfig.cache
+C:\dev\ClanRePlanner\ClanRePlanner.Data\obj\Debug\netcoreapp3.1\ClanRePlanner.Data.csproj.CoreCompileInputs.cache

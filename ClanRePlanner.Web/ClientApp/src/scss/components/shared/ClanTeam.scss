@@ -1,0 +1,145 @@
+.clan-team {
+    .clan-team-header {
+        .clan-team-user {
+            text-align: center;
+            width: 80%;
+            display: inline-block;
+
+            h3 {
+                color: rgba(255, 255, 255, .5);
+            }
+        }
+        .clan-team-support-title {
+            text-align: center;
+            width: 14%;
+            display: inline;
+            float: right;
+            padding-top: .5%;
+
+            span {
+                color:rgba(255, 255, 255, .5);
+                font-size: 14px;
+
+                @media (min-width: 992px) {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .clan-team-display {
+        .clan-team-labels {
+            width: 10%;
+            display: inline;
+            float: left;
+
+            .clan-team-label {
+                height: 33%;
+                text-align: center;
+                padding-top: 75%;
+                color:rgba(255, 255, 255, .5);
+
+                @media (min-width: 992px) {
+                    font-size: 24px;
+                }
+            }
+        }
+    
+        .teams {
+            width: 70%;
+            height: 0;
+            background-color: rgba(255,255,255,.1);
+            border-radius: 20px;
+            display: inline-block;
+    
+            .team {
+                width: 100%;
+                height: 33.3%;
+                border-radius: 20px;
+    
+                .character-container {
+                    width: 20%;
+                    height: 100%;
+                    display: inline-grid;
+                    vertical-align: middle;
+                   
+                    &.top-left {
+                        border-top-left-radius: 20px;
+                    }
+
+                    &.top-right {
+                        border-top-right-radius: 20px;
+                    }
+
+                    &.bottom-left {
+                        border-bottom-left-radius: 20px;
+                    }
+
+                    &.bottom-right {
+                        border-bottom-right-radius: 20px;
+                    }
+
+                    &.support-unit {
+                        background-color: rgba(0, 184, 147, 0.1);
+                    }
+                }
+            }
+        }
+        
+        .clan-team-supports {
+            width: 14%;
+            display: inline;
+            float: right;
+            border-radius: 20px;
+            background-color: rgba(0, 184, 147, .1);
+
+            .support-row {
+                width: 100%;
+                height: 50%;
+                display: inline-grid;
+            }
+        }
+
+        .character-card-lite {
+            width: 90%;
+            height: 90%;
+            margin: auto;
+            background-color: $mainColor1;
+            border-radius: 20px;
+
+            &.team-add {
+                text-align: center;
+
+                @media only screen and (min-width: 768px) {
+                    padding-top: 45%;
+                }
+                @media only screen and (max-width: 767px) {
+                    padding-top: 35%;
+                }
+            }
+
+            &.active {
+                &:hover {
+                    cursor: pointer;
+                    width: 95%;
+                    height: 95%;
+                    
+                    .fa-plus {
+                        font-size: 44px;
+                        color: rgba(255, 255, 255, .2);
+                    }
+                }
+            }
+
+            .fa-plus {
+                font-size: 40px;
+                color: rgba(255, 255, 255, .1);
+            }
+        }
+    }
+    
+    hr {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border-top: 1px solid rgba(255, 255, 255, .1);
+    }
+}

@@ -1,0 +1,49 @@
+.character-card {
+    background-color: $mainColor2;
+    border-radius: 5px;
+    display: inline-block;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 200px;
+    margin: 2.4em;
+
+    .card-select {
+        border-bottom: 1px gray solid;
+        padding-bottom: 5px;
+        
+        &.selectable {
+            &:hover {
+                background-color: $mainColor2Hover;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                cursor: pointer;
+            }
+        
+            &.selected {
+                background-color: $mainColor2Hover;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+        }
+    
+        .character-portrait {
+            img {
+                border-radius: 5px;
+                margin: 10px 0;
+                width: 90%;
+            }
+        }
+    
+        .character-name {
+            font-size: 22px;
+            font-weight: 500;
+            margin: 0 0 10px 0;
+        }
+    }
+
+
+    .star-select {
+        margin: 10px auto 0;
+        width: 90%;
+    }
+}

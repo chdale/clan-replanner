@@ -1,0 +1,12 @@
+C:\dev\ClanRePlanner\ClanRePlanner.Core\bin\Debug\netcoreapp3.1\ClanRePlanner.Core.deps.json
+C:\dev\ClanRePlanner\ClanRePlanner.Core\bin\Debug\netcoreapp3.1\ClanRePlanner.Core.dll
+C:\dev\ClanRePlanner\ClanRePlanner.Core\bin\Debug\netcoreapp3.1\ClanRePlanner.Core.pdb
+C:\dev\ClanRePlanner\ClanRePlanner.Core\bin\Debug\netcoreapp3.1\ClanRePlanner.Data.dll
+C:\dev\ClanRePlanner\ClanRePlanner.Core\bin\Debug\netcoreapp3.1\ClanRePlanner.Data.pdb
+C:\dev\ClanRePlanner\ClanRePlanner.Core\obj\Debug\netcoreapp3.1\ClanRePlanner.Core.csprojAssemblyReference.cache
+C:\dev\ClanRePlanner\ClanRePlanner.Core\obj\Debug\netcoreapp3.1\ClanRePlanner.Core.AssemblyInfoInputs.cache
+C:\dev\ClanRePlanner\ClanRePlanner.Core\obj\Debug\netcoreapp3.1\ClanRePlanner.Core.AssemblyInfo.cs
+C:\dev\ClanRePlanner\ClanRePlanner.Core\obj\Debug\netcoreapp3.1\ClanRePlanner.Core.csproj.CoreCompileInputs.cache
+C:\dev\ClanRePlanner\ClanRePlanner.Core\obj\Debug\netcoreapp3.1\ClanRePlanner.Core.csproj.CopyComplete
+C:\dev\ClanRePlanner\ClanRePlanner.Core\obj\Debug\netcoreapp3.1\ClanRePlanner.Core.dll
+C:\dev\ClanRePlanner\ClanRePlanner.Core\obj\Debug\netcoreapp3.1\ClanRePlanner.Core.pdb

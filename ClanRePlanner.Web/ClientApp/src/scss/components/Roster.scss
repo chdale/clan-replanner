@@ -1,0 +1,83 @@
+.roster-page {
+    .roster {
+        h1 {
+            text-align: center;
+            color: white;
+            margin-top: 1em;
+        }
+        
+        h3 {
+            border-top: white 1px solid;
+            text-align: center;
+            color: white;
+        }
+    }
+    .footer-bar {
+        height: 50px;
+        width: 100%;
+        background-color: black;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+
+        .footer-item {
+            display: inline-grid;
+            width: 33%;
+
+            &.selected-characters {
+                margin: 10px 0;
+                text-align: left;
+
+                span {    
+                    font-size: 18px;
+                    font-weight: 500;
+                    padding-left: 15%;
+                }
+            }
+
+            &.submit-empty {
+                margin: 12px 0;
+
+                a {
+                    color: black;
+                }
+            }
+
+            &.submit {
+                vertical-align: middle;
+                margin-bottom: 3px;
+
+                .submit-button {
+                    border: 2px #181818 solid;
+                    border-radius: 20px;
+                    width: 100px;
+                    height: 40px;
+                    position: relative;
+                    @media only screen and (min-width: 768px) {
+                        left: 60%;
+                    }
+                    @media only screen and (max-width: 767px) {
+                        left: 40%;
+                    }
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+
+                    &.disabled {
+                        opacity: .6;
+                        cursor: not-allowed;
+                    }
+
+                    span {
+                        line-height: 36px;
+                        font-weight: 500;
+                        font-size: 18px;
+                        color: #181818;
+                    }
+                }
+            }
+        }
+    }
+}

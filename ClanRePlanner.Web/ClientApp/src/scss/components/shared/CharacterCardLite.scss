@@ -1,0 +1,91 @@
+.actual-card-lite {
+    padding-top: 10%;
+    padding-bottom: 4%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: $mainColor2;
+
+    .character-portrait {
+        background-size: cover;
+        background-position: 50% 50%;
+        margin: auto;
+        width: 80%;
+        height: 65%;
+        border-radius: 10px;
+        
+        img {
+            width: 100%;
+            height: 90%;
+            margin-top: auto;
+        }
+    }
+
+    .character-name {
+        display: flex;
+        height: 10%;
+
+        span {
+            margin: auto;
+        }
+    }
+
+    .user-name {
+        display: flex;
+        height: 10%;
+
+        @media (max-width: 767px) {
+            span {
+                font-size: .4em !important;
+            }
+        }
+
+        @media (min-width: 768px) {
+            span {
+                font-size: .5em;
+            }
+        }
+
+        @media (min-width: 992px) {
+            span {
+                font-size: .6em;
+            }
+        }
+
+        span {
+            margin: auto;
+        }
+    }
+
+    .current-stars {
+        height: 15%;
+
+        .star-container {
+            width: 100%;
+            height: 66.6%;
+            margin-bottom: auto;
+            display: flex;
+
+            .star-parent-span {
+                margin: auto;
+            }
+        }
+    }
+
+    @media (max-width: 767px) {
+        span {
+            font-size: .5em !important;
+        }
+    }
+
+    @media (min-width: 768px) {
+        span {
+            font-size: .7em;
+        }
+    }
+
+    @media (min-width: 992px) {
+        span {
+            font-size: .9em;
+        }
+    }
+}

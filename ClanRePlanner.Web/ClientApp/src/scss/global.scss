@@ -1,0 +1,21 @@
+$mainColor1: #181818;
+$mainColor2: #FDEDEE;
+$mainColor2Hover: #F39197;
+$mainColor3:  #F17E86;
+
+$gradients: () !default;
+$gradients: map-merge((
+    replanner: linear-gradient(180deg, $mainColor2 0%, $mainColor2Hover 100%),
+    replanner-inverted: linear-gradient(180deg, $mainColor2Hover 0%, $mainColor2 100%),
+), $gradients);
+
+@mixin bg-gradient($parent, $gradient) {
+    #{$parent} {
+        background: $gradient;
+    }
+}
+
+@each $gradient, $value in $gradients {
+    @include bg-gradient(".bg-gradient-#{$gradient}", $value);
+    @include bg-gradient(".bg-gradient-hover-#{$gradient}:hover", $value);
+}
